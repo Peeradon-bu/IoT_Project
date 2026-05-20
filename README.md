@@ -25,6 +25,7 @@ CREATE TABLE sensor_data (
     distance FLOAT NOT NULL,
     created_at TIMESTAMPTZ DEFAULT NOW()
 );
+```
 
 ## การตั้งค่า ESP32
 1. ตั้งค่า ssid = "ชื่อ WIFI";
